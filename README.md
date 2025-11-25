@@ -1,20 +1,20 @@
-AWS Minikube Web Deployment Project
+# AWS Minikube Web Deployment Project
 
-Project Overview
+## Project Overview
 
-This project elucidates the deployment methodology for a web application utilizing Docker and Minikube (Kubernetes) hosted on an AWS EC2 Ubuntu instance. The primary objective was the simulation of a realistic development environment wherein container orchestration is performed on a remote cloud server, as opposed to a local machine. This configuration necessitated the resolution of specific challenges regarding cloud networking constraints, the management of limited container storage on free-tier infrastructure, and the secure exposure of a private Kubernetes service to the public internet via port forwarding tunnels.
+### This project elucidates the deployment methodology for a web application utilizing Docker and Minikube (Kubernetes) hosted on an AWS EC2 Ubuntu instance. The primary objective was the simulation of a realistic development environment wherein container orchestration is performed on a remote cloud server, as opposed to a local machine. This configuration necessitated the resolution of specific challenges regarding cloud networking constraints, the management of limited container storage on free-tier infrastructure, and the secure exposure of a private Kubernetes service to the public internet via port forwarding tunnels.
 
 # Infrastructure
 
-## Cloud Provider: AWS (EC2) - Selected to simulate a production-grade remote server environment.
+### Cloud Provider: AWS (EC2) - Selected to simulate a production-grade remote server environment.
 
-## Operating System: Ubuntu 24.04 LTS  - Chosen for its extensive compatibility with container runtimes.
+### Operating System: Ubuntu 24.04 LTS  - Chosen for its extensive compatibility with container runtimes.
 
-## Container Engine: Docker - Functions as the underlying driver for the Kubernetes cluster.
+### Container Engine: Docker - Functions as the underlying driver for the Kubernetes cluster.
 
-## Orchestration: Minikube (Kubernetes) - Provides a lightweight, single-node cluster environment optimal for educational and testing purposes.
+### Orchestration: Minikube (Kubernetes) - Provides a lightweight, single-node cluster environment optimal for educational and testing purposes.
 
-## Web Server: Nginx - Utilized as a reliable, lightweight web server for connectivity verification.
+### Web Server: Nginx - Utilized as a reliable, lightweight web server for connectivity verification.
 
 # Step 1: Environment Setup & Docker Configuration
 
