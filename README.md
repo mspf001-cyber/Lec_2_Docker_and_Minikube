@@ -5,7 +5,7 @@
 ### This project elucidates the deployment methodology for a web application utilizing Docker and Minikube (Kubernetes) hosted on an AWS EC2 Ubuntu instance. The primary objective was the simulation of a realistic development environment wherein container orchestration is performed on a remote cloud server, as opposed to a local machine. This configuration necessitated the resolution of specific challenges regarding cloud networking constraints, the management of limited container storage on free-tier infrastructure, and the secure exposure of a private Kubernetes service to the public internet via port forwarding tunnels.
 
 # Infrastructure
-![AWS EC2 Instance Console](Screenshot 2025-11-25 054904.png)
+![AWS EC2 Instance Console](Screenshot%2025-11-25%054904.png)
 ### Cloud Provider: AWS (EC2) - Selected to simulate a production-grade remote server environment.
 
 ### Operating System: Ubuntu 24.04 LTS  - Chosen for its extensive compatibility with container runtimes.
