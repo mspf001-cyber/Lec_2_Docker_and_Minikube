@@ -100,4 +100,4 @@ To mitigate unnecessary cloud infrastructure costs and reclaim disk storage, a r
 # Deletes the cluster VM/container to free up disk space
 `minikube delete`
 # Aggressively removes all unused Docker data, including volumes, to reset the environment
-docker system prune -a --volumes -f
+`docker system prune -a --volumes -f`
